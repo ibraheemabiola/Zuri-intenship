@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+  
+}
+main {
+}
+.all {
+  border-radius: 20px;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 15px;
+}
+.a {
+  width: 50%;
+  height: 70vh;
+  background: #e28525;
+  padding: 3em;
+  color: white;
+  border-radius: 10px 0 0 10px;
+}
+.b {
+  width: 50%;
+  height: 70vh;
+  background: #016972;
+  padding: 3em;
+  color: white;
+}
+.c {
+  width: 50%;
+  height: 70vh;
+  background: #00403f;
+  padding: 3em;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+.type {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+button {
+  background: white;
+  color: green;
+  padding: 2px;
+  border-radius: 25px;
+  width: 70%;
+  margin: 180px 0px;
+  height: 50px;
+  border: 1px solid white;
+}
